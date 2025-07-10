@@ -1,4 +1,4 @@
-console.log(32/76);
+ console.log(32/76);
 // // % modulus remainder after division use to know if the no is  even or odd
 console.log(54 % 2 == 0 ); // true/false
 
