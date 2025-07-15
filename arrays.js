@@ -70,7 +70,7 @@ let newArray1 = new Array();
 let newArray2 = new Array("value1", "value2", "value3");
 
 // ✅ Array Indexing (zero-based):
-let students = [
+let newStudents = [
   "John", "Hope", "Brian", "Ngetich", "Martin",
   "Gerald", "Crispin", "Walter", "Peter", 100, true
 ];
@@ -120,4 +120,13 @@ let fruits3 = ["apple", "banana", "orange", "watermelon"];
 let slicedFruits = fruits3.slice(1, 3);
 console.log(slicedFruits); // Output: ['banana', 'orange']
 console.log(fruits3);      // Output: ['apple', 'banana', 'orange', 'watermelon']
+
+
+
+
+
+
+
+
+
 
