@@ -142,7 +142,7 @@ console.log(dataset.seedlings[1].species);//species name
 
 console.log(dataset.seedlings[2].attributes.sunlight);//sunlight requirments
 
-console.log(dataset.seedlings[2].attributes.soil_type);
+console.log(dataset.seedlings[2].attributes.soil_type[0]);//soil type suitable for  seedling with category ornamental
 
 
 

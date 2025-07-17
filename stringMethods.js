@@ -2,7 +2,7 @@
 //these methods can be used to perform various operations sch as searching , replacing and formating strings
 //eaxampe using string methods to manipulate a string
 
-const fullName ="Emmanuel Ngetich";
+const fullName ="Emmanuel Ngetich ";
 
 // 1. length of the string
 const lengthOfFUllName =fullName.length;
@@ -36,3 +36,6 @@ console.log(replacedFullName);
 //7.split the string into an array
 const nameParts = fullName.split("");//["Emmanuel" "Ngetich"]
 console.log(nameParts);
+
+//8.trim white spaces from both ends
+const trimmedFullName = fullName.trim();//"Emmanuel Ngetich"

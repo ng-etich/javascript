@@ -2,6 +2,9 @@
 
 const ourList = ["apple", "bread", "milk", "eggs", "cheese"];
 
+console.log(ourList[7]);//output is undefined
+
+
 // Arrays can hold items of any type, including numbers, strings, objects, and even other arrays.
 const mixedArray = [4, 6, "banana", { name: "John" }, [1, 2, 3]];
 
