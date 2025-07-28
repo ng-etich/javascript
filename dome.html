@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Document Object Model</h1>
+    <p>The DOM provides a way to access and manipulate the structure of
+        an HTML document.
+    </p>
+    <p>
+        Document here refers to the html code/page which then is accesswd in the 
+        javascript content as an object.
+    </p>
+    <a href="#">click here</a>
+    <script>
+         document.querySelector('h1').textcontent="THE DOM API/INTERFACE";
+        document.querySelector('h1').setAttribute("id", "ugalinyama");
+        console.log(typeof document);
+        //the whole html is converted to a js object called document
+        // this object has methods and properties that can be used to manipulate the html document
+        document.body.append("albert kipchirchir");
+        // every html element in the page is also an object with properties and methods to manipulate the element
+        document.querySelector("a").style.backgroundColor = "orange";
+    </script>
+</body>
+</html>
